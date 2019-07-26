@@ -1,26 +1,19 @@
 {
-  "name": "babel-plugin-silly-tests",
+  "name": "@hobroker/babel-plugin-silly",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "Igor Leahu <igor.leahu24@gmail.com>",
   "license": "ISC",
-  "scripts": {
-    "start": "babel-node src/index.js",
-    "quick-build": "babel src/index.js",
-    "build": "babel src --out-dir dist"
-  },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@types/babel__core": "^7.1.2",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.2",
-    "babel-preset-env": "^1.7.0",
-    "eslint": "^6.1.0"
+    "@babel/helper-plugin-utils": "^7.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "faker": "^4.1.0",
+    "random-words": "^1.1.0"
+  }
 }

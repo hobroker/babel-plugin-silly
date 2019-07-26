@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-silly-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Igor Leahu <igor.leahu24@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "quick-build": "babel src/index.js",
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@types/babel__core": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}
