@@ -32,7 +32,7 @@ npm link @hobroker/babel-plugin-silly
 ```
 
 ##### output the transformed code
-`npm run quck-build`
+`npm run quick-build`
 ##### see the transformed code in dist directory
 `npm run build`
 ##### transform then execute the code in index.js
